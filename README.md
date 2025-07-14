@@ -27,12 +27,10 @@ O resultado é uma aplicação robusta que separa claramente a lógica do jogo d
 
 ### Interface JavaFX (Recomendada)
 
-*Aqui você pode adicionar a captura de tela da sua interface JavaFX.*
 ![Interface JavaFX](./src/main/resources/br/com/dio/sudoku/sudoku_javafx.png)
 
 ### Interface Swing (Legado)
 
-*Aqui você pode adicionar a captura de tela da sua interface Swing.*
 ![Interface Swing](./src/main/resources/br/com/dio/sudoku/sudoku_swing.png)
 
 ## 🛠️ Tecnologias Utilizadas
