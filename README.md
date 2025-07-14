@@ -95,4 +95,4 @@ O projeto segue uma arquitetura que separa as responsabilidades, facilitando a m
 ## 👨‍💻 Autor
 Desenvolvido por Vitor como parte de um desafio de código e estudo pessoal.
 
-(LinkedIn)[https://www.linkedin.com/in/vitor-tavares-chaves-500967236/]
+[LinkedIn](https://www.linkedin.com/in/vitor-tavares-chaves-500967236/)
