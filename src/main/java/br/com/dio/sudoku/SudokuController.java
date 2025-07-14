@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.UnaryOperator;
 
-public class HelloController {
+public class SudokuController {
 
     // Injeção dos componentes do FXML
     @FXML
