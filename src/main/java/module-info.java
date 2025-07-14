@@ -8,6 +8,7 @@ module br.com.dio.sudoku {
 
     // Lombok é uma dependência de compilação, então 'static' é apropriado
     requires static lombok;
+    requires java.desktop;
 
     opens br.com.dio.sudoku to javafx.fxml;
     exports br.com.dio.sudoku;
