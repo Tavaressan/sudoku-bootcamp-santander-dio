@@ -15,6 +15,7 @@ import static br.com.dio.sudoku.util.BoardTemplate.BOARD_TEMPLATE;
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
 
+// Esta classe executa a aplicação sem uma GUI (Graphical User Interface)
 public class Main {
 
     private final static Scanner scanner = new Scanner(System.in);

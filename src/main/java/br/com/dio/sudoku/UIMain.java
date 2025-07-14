@@ -5,6 +5,7 @@ import br.com.dio.sudoku.ui.custom.screen.MainScreen;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+// // Esta classe executa a aplicação com a GUI Swing
 public class UIMain {
 
     public static void main(String[] args) {

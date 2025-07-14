@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="br.com.dio.sudoku.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.dio.sudoku.HelloController"
+            prefHeight="500.0" prefWidth="450.0">
+    <center>
+        <!-- O GridPane será o nosso tabuleiro 9x9. Ele será preenchido pelo Controller. -->
+        <GridPane fx:id="sudokuGrid" hgap="5" vgap="5" alignment="CENTER">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+        </GridPane>
+    </center>
+    <bottom>
+        <!-- Um HBox para organizar os botões na parte inferior -->
+        <HBox alignment="CENTER" spacing="15" prefHeight="60.0">
+            <padding>
+                <Insets bottom="20.0"/>
+            </padding>
+            <children>
+                <Button fx:id="checkStatusButton" text="Verificar Status" onAction="#onCheckStatusClick"/>
+                <Button fx:id="resetButton" text="Reiniciar" onAction="#onResetClick"/>
+                <Button fx:id="finishButton" text="Finalizar Jogo" onAction="#onFinishClick"/>
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>
