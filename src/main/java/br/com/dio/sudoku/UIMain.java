@@ -1,12 +1,7 @@
 package br.com.dio.sudoku;
 
-import br.com.dio.sudoku.ui.custom.frame.MainFrame;
-import br.com.dio.sudoku.ui.custom.panel.MainPanel;
 import br.com.dio.sudoku.ui.custom.screen.MainScreen;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import java.awt.Dimension;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -20,12 +15,5 @@ public class UIMain {
                 ));
         var mainScreen = new MainScreen(gameConfig);
         mainScreen.buildMainScreen();
-
-
-//        var dimension = new Dimension(600, 600);
-//        JPanel mainPanel = new MainPanel(dimension);
-//        JFrame mainFrame = new MainFrame(dimension, mainPanel);
-//        mainFrame.revalidate();
-//        mainFrame.repaint();
     }
 }
